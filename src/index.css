@@ -1,0 +1,325 @@
+ .navbar{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:15px 40px;
+  background:#ff6b6b;
+  color:white;
+  border-radius: 20px;
+}
+
+.link{
+  margin-left:20px;
+  text-decoration:none;
+  color:white;
+  font-weight:500;
+}
+/* Page Layout */
+
+body{
+  margin:0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(135deg,#ff7e5f,#feb47b);
+  min-height:100vh;
+}
+
+
+/* Login Container */
+
+.login{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+}
+
+
+/* Form Card */
+
+.form{
+  background:white;
+  padding:40px;
+  margin-top:60px;
+  border-radius:12px;
+  width:350px;
+  display:flex;
+  flex-direction:column;
+  box-shadow:0px 10px 25px rgba(0,0,0,0.15);
+}
+
+
+/* Labels */
+
+.form label{
+  margin-top:12px;
+  font-weight:600;
+  font-size:14px;
+  color:#333;
+}
+
+
+/* Inputs */
+
+.form input{
+  padding:12px;
+  margin-top:5px;
+  border-radius:8px;
+  border:1px solid #ddd;
+  outline:none;
+  font-size:14px;
+  transition:0.3s;
+}
+
+
+/* Input focus effect */
+
+.form input:focus{
+  border-color:#ff7e5f;
+  box-shadow:0 0 5px rgba(255,126,95,0.4);
+}
+
+
+/* Submit Button */
+
+.form button{
+  margin-top:20px;
+  padding:12px;
+  border:none;
+  border-radius:8px;
+  background:#ff7e5f;
+  color:white;
+  font-size:16px;
+  font-weight:bold;
+  cursor:pointer;
+  transition:0.3s;
+}
+
+
+/* Button Hover */
+
+.form button:hover{
+  background:#ff5a3c;
+}
+/* Page background */
+.login-page {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #fff6f0, #ffe8d6);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Card */
+.login-card {
+  position: relative;
+  background: #ffffff;
+  padding: 30px;
+  margin-top: 60px;
+  width: 350px;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Title */
+.login-card h2 {
+  margin-bottom: 5px;
+}
+
+.login-card p {
+  font-size: 14px;
+  color: #777;
+  margin-bottom: 20px;
+}
+
+ 
+
+/* Inputs */
+.input-group input {
+  width: 70%;
+  padding: 12px 40px 12px 12px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  outline: none;
+  font-size: 14px;
+  transition: 0.3s;
+}
+.input-group input{
+  margin-bottom: 20px;
+}
+.input-group input:focus {
+  border-color: #ff7a00;
+  box-shadow: 0 0 0 2px rgba(255, 122, 0, 0.1);
+}
+
+ 
+
+/* Button */
+.login-btn {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  background: #ff7a00;
+  color: white;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.login-btn:hover {
+  background: #e66a00;
+}
+/* Page background */
+.tracker-page {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #fff6f0, #ffe8d6);
+  padding: 20px;
+}
+
+/* Container */
+.tracker-container {
+  max-width: 700px;
+  margin: auto;
+  background: white;
+  padding: 25px;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+/* Title */
+.tracker-container h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Form */
+.recipe-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+/* Labels */
+.recipe-form label {
+  font-weight: 500;
+  font-size: 14px;
+}
+
+/* Inputs & textarea */
+.recipe-form input,
+.recipe-form textarea {
+  padding: 12px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  outline: none;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+/* Textarea resize */
+.recipe-form textarea {
+  min-height: 80px;
+  resize: vertical;
+}
+
+/* Focus effect */
+.recipe-form input:focus,
+.recipe-form textarea:focus {
+  border-color: #ff7a00;
+  box-shadow: 0 0 0 2px rgba(255, 122, 0, 0.1);
+}
+
+/* Button */
+.recipe-form button {
+  margin-top: 10px;
+  padding: 12px;
+  border: none;
+  background: #ff7a00;
+  color: white;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.recipe-form button:hover {
+  background: #e66a00;
+}
+
+/* Recipe list */
+.recipe-list {
+  margin-top: 30px;
+  
+}
+
+/* Recipe card */
+.recipe-card {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: #fff;
+  padding: 15px;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+  border-left: 5px solid #ff7a00;
+}
+
+/* Recipe text */
+.recipe-card h3 {
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.recipe-card h4,
+.recipe-card h5,
+.recipe-card h6 {
+  margin: 4px 0;
+  color: #555;
+  font-weight:solid;
+  margin-top: 10px;
+}
+
+/* Optional: make sections clearer */
+.recipe-card h4::before {
+  content: "🧂 ";
+}
+
+.recipe-card h5::before {
+  content: "👨‍🍳 ";
+}
+
+.recipe-card p::before {
+  content: "⏱️ ";
+}
+.recipe-card button{
+  position: absolute;
+  right: 20px;
+  height: 40px;
+  width: 100px;
+  border-radius: 20px;
+color:white;
+font-weight: bold;
+}
+.show-password{
+  position: relative;
+}
+.show-confirm-password{
+  position: relative;
+}
+.auth-link {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.auth-link a {
+  color: #ff7a00;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.auth-link a:hover {
+  text-decoration: underline;
+}
