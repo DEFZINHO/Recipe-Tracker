@@ -11,7 +11,7 @@ import RecipeTrackers from "./recipe_tracker";
     <Routes>
       <Route path="/" element={<Login/>}/>
       <Route path="/register" element={<Register/>}/>
-      <Route path="/dashboard"element={<RecipeTrackers/>}/>
+      <Route path="/dashboard"element={<RecipeTracker/>}/>
     </Routes>
     
     </div>
