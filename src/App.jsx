@@ -1,7 +1,7 @@
 import { Route,Routes } from "react-router-dom";
 import Register from "./Register";
 import Login from "./login";
-import RecipeTrackers from "./recipe_tracker";
+import RecipeTracker from "./recipe_tracker";
  const App = () => {
 
   return (
